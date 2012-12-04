@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/collectionTxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/collection_hint"
+        android:inputType="text"/>
+
+
+
+    <EditText
+        android:id="@+id/keyTxt1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/key_hint_1"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/valueTxt1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/value_hint_1"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/keyTxt2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/key_hint_2"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/valueTxt2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/value_hint_2"
+        android:inputType="text"/>
+
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="submitEntity"
+        android:text="Submit"/>
+</LinearLayout>
